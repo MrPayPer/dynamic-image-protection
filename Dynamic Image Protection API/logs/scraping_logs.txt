@@ -1,0 +1,98 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 219-691-608
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 219-691-608
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:27:32] "[36mGET /api/scripts/security.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:27:32] "GET /api/decrypt-image/bb48c25cd643fede1db7c083e6f9bed4052b7a1ef4d4edb5aecae34e7344ecbb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:27:33] "GET /api/decrypt-image/331b7d18f0da26fc8be438425f53e0ac7daf0a41f5dc3572e7c7d8d3afe8e5f9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:27:33] "GET /api/decrypt-image/a474c2459795776dc3f387f5d2c04272bbb4a64654132740e6319c3ee0571a62 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:27:37] "GET /api/decrypt-image/ed48c7da3427ef160e05ca517c09c5a5ddd26b8c8e21f1bfd4ea338d69d98118 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:27:37] "GET /api/decrypt-image/117223d567cd0c9e25aafd9a8c12a955d9bf703f6ad82bba1ead74d0ef6a6651 HTTP/1.1" 200 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:06] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:06] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[FINGERPRINT] IP 127.0.0.1 - Headless browser or script detected, Missing language settings
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:08] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:09] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:root:[RATE LIMIT] IP 127.0.0.1 exceeded limit
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 12:28:10] "[31m[1mGET / HTTP/1.1[0m" 429 -
+INFO:werkzeug: * Detected change in '/Users/petergabrielrlopez/Documents/Thesis/Dynamic Image Protection API/utils/detection.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 219-691-608
+INFO:werkzeug: * Detected change in '/Users/petergabrielrlopez/Documents/Thesis/Dynamic Image Protection API/utils/detection.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 219-691-608
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 219-691-608
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 219-691-608
