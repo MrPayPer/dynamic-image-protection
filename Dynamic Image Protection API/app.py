@@ -23,7 +23,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # --- Database Setup ---
-DB_PATH = 'database/images.db'
+DB_PATH = 'Dynamic Image Protection API\database\images.db'
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)

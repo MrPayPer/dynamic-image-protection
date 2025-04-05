@@ -123,3 +123,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.getElementById('toggleDashboardBtn');
+    const dashboard = document.getElementById('securityDashboard');
+
+    toggleBtn.addEventListener('click', function () {
+        const isVisible = dashboard.style.display === 'block';
+        dashboard.style.display = isVisible ? 'none' : 'block';
+
+        if (!isVisible) {
+            dashboard.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+});

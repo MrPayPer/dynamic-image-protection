@@ -61,6 +61,7 @@ $stmt->close();
         <div class="navbar-brand">Image Gallery</div>
         <div class="navbar-links">
             <a href="upload.php">Upload</a>
+            <button id="toggleDashboardBtn" class="dashboard-toggle">🛠 Dashboard</button>
             <a href="logout.php" class="btn-logout">Logout</a>
         </div>
     </nav>
@@ -75,10 +76,7 @@ $stmt->close();
             <div class="gallery">
                 <?php foreach ($images as $row): ?>
                     <?php
-                        // Get encrypted filename (e.g., from 'static/encrypted_images/abc123.png')
-                        $filename = basename($row['image_path'], '.png'); // remove .png extension
-
-                        // Build the decryption API URL
+                        $filename = basename($row['image_path'], '.png');
                         $decrypted_url = "http://127.0.0.1:5050/api/decrypt-image/" . $filename;
                     ?>
                     <div class="card">
@@ -93,9 +91,31 @@ $stmt->close();
         <?php endif; ?>
     </main>
 
+ <!-- Security Dashboard -->
+<div id="securityDashboard">
+    <h3 class="subheading">Security Dashboard</h3>
+    <div class="dashboard-grid">
+        <div class="dashboard-panel">
+            <h4>🛡 <span style="font-weight: 700;">Anti-Scraping</span></h4>
+            <pre id="antiScrapingLog">Loading...</pre>
+        </div>
+        <div class="dashboard-panel">
+            <h4>🔐 <span style="font-weight: 700;">Encryption</span></h4>
+            <pre id="encryptionLog">Loading...</pre>
+        </div>
+        <div class="dashboard-panel">
+            <h4>📸 <span style="font-weight: 700;">Screenshot Blocking</span></h4>
+            <pre id="screenshotLog">Loading...</pre>
+        </div>
+    </div>
+</div>
+
+
     <footer>
-        &copy; 2025 Image Gallery 
+        &copy; 2025 Image Gallery
     </footer>
+
+    <!-- Scripts -->
     <script src="http://localhost:5050/api/scripts/security.js"></script>
 </body>
 </html>

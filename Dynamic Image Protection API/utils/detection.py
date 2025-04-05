@@ -7,7 +7,7 @@ MAX_VISITS = 20
 TIME_FRAME = 60
 
 # Set up logging
-logging.basicConfig(filename='logs/scraping_logs.txt', level=logging.INFO)
+logging.basicConfig(filename='Dynamic Image Protection API/logs/scraping_logs.txt', level=logging.INFO)
 
 def detect_and_rate_limit():
     ip = request.headers.get('X-Forwarded-For', request.remote_addr).split(',')[0].strip()
